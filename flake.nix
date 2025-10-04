@@ -2,7 +2,7 @@
   description = "NixOS module which provides a kernel and dkms module for i915 SR-IOV";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
   };
 
   outputs = {nixpkgs, ...}: let
